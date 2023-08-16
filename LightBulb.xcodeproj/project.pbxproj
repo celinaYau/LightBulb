@@ -14,6 +14,10 @@
 		BD2A9CFA2A8BB03E00ACB6C7 /* LightBulbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9CF92A8BB03E00ACB6C7 /* LightBulbTests.swift */; };
 		BD2A9D042A8BB03E00ACB6C7 /* LightBulbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D032A8BB03E00ACB6C7 /* LightBulbUITests.swift */; };
 		BD2A9D062A8BB03E00ACB6C7 /* LightBulbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A9D052A8BB03E00ACB6C7 /* LightBulbUITestsLaunchTests.swift */; };
+		BD4916FF2A8D165D001D63D6 /* AllergyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4916FE2A8D165D001D63D6 /* AllergyView.swift */; };
+		BDC082A52A8BCF5C0093D6F4 /* ChoosingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC082A42A8BCF5C0093D6F4 /* ChoosingView.swift */; };
+		BDC082A72A8BCF6E0093D6F4 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC082A62A8BCF6E0093D6F4 /* TypeView.swift */; };
+		BDC082A92A8BCF800093D6F4 /* GeneratePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC082A82A8BCF800093D6F4 /* GeneratePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		BD2A9CFF2A8BB03E00ACB6C7 /* LightBulbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightBulbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2A9D032A8BB03E00ACB6C7 /* LightBulbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBulbUITests.swift; sourceTree = "<group>"; };
 		BD2A9D052A8BB03E00ACB6C7 /* LightBulbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBulbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD4916FE2A8D165D001D63D6 /* AllergyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyView.swift; sourceTree = "<group>"; };
+		BDC082A42A8BCF5C0093D6F4 /* ChoosingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingView.swift; sourceTree = "<group>"; };
+		BDC082A62A8BCF6E0093D6F4 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		BDC082A82A8BCF800093D6F4 /* GeneratePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				BD2A9CE82A8BB03D00ACB6C7 /* LightBulbApp.swift */,
 				BD2A9CEA2A8BB03D00ACB6C7 /* ContentView.swift */,
+				BDC082A42A8BCF5C0093D6F4 /* ChoosingView.swift */,
+				BDC082A62A8BCF6E0093D6F4 /* TypeView.swift */,
+				BDC082A82A8BCF800093D6F4 /* GeneratePage.swift */,
+				BD4916FE2A8D165D001D63D6 /* AllergyView.swift */,
 				BD2A9CEC2A8BB03D00ACB6C7 /* Assets.xcassets */,
 				BD2A9CEE2A8BB03D00ACB6C7 /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC082A52A8BCF5C0093D6F4 /* ChoosingView.swift in Sources */,
+				BD4916FF2A8D165D001D63D6 /* AllergyView.swift in Sources */,
 				BD2A9CEB2A8BB03D00ACB6C7 /* ContentView.swift in Sources */,
+				BDC082A92A8BCF800093D6F4 /* GeneratePage.swift in Sources */,
+				BDC082A72A8BCF6E0093D6F4 /* TypeView.swift in Sources */,
 				BD2A9CE92A8BB03D00ACB6C7 /* LightBulbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

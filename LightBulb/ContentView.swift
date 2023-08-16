@@ -9,16 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            
+            
+            VStack {
+                Text("Idea Generator")
+                    .font(.title)
+                
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color.yellow)
+                    .padding()
+                    .background(Color.red)
+                    .cornerRadius(/*@START_MENU_TOKEN@*/5.0/*@END_MENU_TOKEN@*/)
+                
+                
+                NavigationLink(destination: ChoosingView()) {
+                    Text("Food")
+                        .foregroundColor(Color("ye"))
+                }
+                
+            }
         }
-        .padding()
     }
+    
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
